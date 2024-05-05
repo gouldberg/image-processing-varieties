@@ -18,7 +18,7 @@ from scipy.spatial import distance as dist
 
 import albumentations as A
 
-base_path = '/home/kswada/kw/image_processing'
+base_path = '~/image_processing'
 
 
 
@@ -644,7 +644,7 @@ def comp_stats(img_path, img_path2, transform, cw_width=30, hist_bin_size=32):
 # set 2 image paths
 # --------------------------------------------------------------------------------------------------
 
-# img_dir = '/home/kswada/kw/image_processing/00_sample_images/ssim'
+# img_dir = '~/image_processing/00_sample_images/ssim'
 
 # img_fname1 = 'test2-1.png'
 # img_fname2 = 'test2-2.png'
@@ -660,7 +660,7 @@ def comp_stats(img_path, img_path2, transform, cw_width=30, hist_bin_size=32):
 
 
 # ----------
-img_dir = '/home/kswada/kw/image_processing/00_sample_images/prize/brassband_trading_badge'
+img_dir = '~/image_processing/00_sample_images/prize/brassband_trading_badge'
 img_fname1 = 'brassband_trading_badge_01.jpg'
 # img_fname2 = 'brassband_trading_badge_02.jpg'
 # img_fname2 = 'brassband_trading_badge_03.jpg'
@@ -671,7 +671,7 @@ img_fname2 = 'brassband_trading_badge_07.jpg'
 
 
 # ----------
-# img_dir = '/home/kswada/kw/image_processing/00_sample_images/skimage_data'
+# img_dir = '~/image_processing/00_sample_images/skimage_data'
 # img_fname1 = 'chelsea.png'
 # img_fname2 = 'chelsea.png'
 # img_fname1 = 'chessboard_RGB.png'
@@ -694,7 +694,7 @@ img_fname2 = 'brassband_trading_badge_07.jpg'
 
 
 # ----------
-# img_dir = '/home/kswada/kw/image_processing/00_sample_images/cushion/pacman'
+# img_dir = '~/image_processing/00_sample_images/cushion/pacman'
 # # img_fname1 = 'cushion_galaxy_donuts_ghostbig_pacman_blue.jpg'
 # img_fname2 = 'cushion_galaxy_donuts_ghostbig_pacman_orange.jpg'
 # img_fname1 = 'cushion_galaxy_donuts_ghostbig_pacman_pink.jpg'
@@ -703,7 +703,7 @@ img_fname2 = 'brassband_trading_badge_07.jpg'
 
 
 # ----------
-# img_dir = '/home/kswada/kw/image_processing/00_sample_images/cushion'
+# img_dir = '~/image_processing/00_sample_images/cushion'
 # # # img_fname1 = 'cushion_01.jpg'
 # # # # img_fname2 = 'cushion_03.jpg'
 # img_fname1 = 'cushion_blown.jpg'
@@ -755,7 +755,7 @@ comp_stats(img_path, img_path2, transform=transform, cw_width=cw_width, hist_bin
 # load base image
 # --------------------------------------------------------------------------------------------------
 
-img_dir = '/home/kswada/kw/image_processing/00_sample_images/ssim'
+img_dir = '~/image_processing/00_sample_images/ssim'
 
 # img_fname_base = 'test2-1.png'
 # img_fname_target = 'test2-2.png'
